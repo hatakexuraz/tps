@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ssnc.travelportalservice.ui.fragments.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_hotelDetailFragment"
+            app:destination="@id/hotelDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.ssnc.travelportalservice.ui.fragments.SavedFragment"
+        android:label="SavedFragment"
+        tools:layout="@layout/fragment_saved" >
+        <action
+            android:id="@+id/action_savedFragment_to_hotelDetailFragment"
+            app:destination="@id/hotelDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookedFragment"
+        android:name="com.ssnc.travelportalservice.ui.fragments.BookedFragment"
+        android:label="BookedFragment"
+        tools:layout="@layout/fragment_booked" >
+        <action
+            android:id="@+id/action_bookedFragment_to_hotelDetailFragment"
+            app:destination="@id/hotelDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.ssnc.travelportalservice.ui.fragments.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/hotelDetailFragment"
+        android:name="com.ssnc.travelportalservice.ui.fragments.HotelDetailFragment"
+        android:label="HotelDetailFragment"
+        tools:layout="@layout/fragment_hotel_detail">
+        <argument
+            android:name="hotel"
+            app:argType="com.ssnc.travelportalservice.model.res.HotelByNameItem" />
+    </fragment>
+</navigation>
