@@ -4,19 +4,18 @@
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/white"
-    android:gravity="center"
-    android:padding="@dimen/margin_8">
+    android:gravity="center">
 
     <ImageView
         android:id="@+id/service_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:src="@drawable/ic_wifi"/>
+        tools:src="@drawable/ic_ac"/>
+
     <TextView
         android:id="@+id/service_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Wi-fi"/>
+        tools:text="AC"/>
 
 </LinearLayout>

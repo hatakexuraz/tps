@@ -18,6 +18,7 @@ class StartActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setTheme(R.style.Theme_TravelPortalService)
         setContentView(R.layout.activity_start)
         Log.d("Fragment", "Start Activity")
 

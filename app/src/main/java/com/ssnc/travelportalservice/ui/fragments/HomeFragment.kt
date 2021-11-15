@@ -120,6 +120,7 @@ class HomeFragment : Fragment(R.layout.fragment_home), View.OnClickListener {
         if (p0 == null) return
         when (p0.id) {
             R.id.txt_try_again -> {
+                error_view.visibility = View.INVISIBLE
                 Log.d(TAG, "Try again")
                 showProgressBar()
                 viewModel.getHotel("Himal")

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph_start"
-    app:startDestination="@id/splashFragment">
+    app:startDestination="@id/walkThroughFragment">
 
     <fragment
         android:id="@+id/walkThroughFragment"
@@ -12,18 +12,6 @@
         tools:layout="@layout/fragment_walkthrough" >
         <action
             android:id="@+id/action_walkThroughFragment_to_mainActivity"
-            app:destination="@id/mainActivity" />
-    </fragment>
-    <fragment
-        android:id="@+id/splashFragment"
-        android:name="com.ssnc.travelportalservice.ui.fragments.SplashFragment"
-        android:label="SplashFragment"
-        tools:layout="@layout/fragment_splash" >
-        <action
-            android:id="@+id/action_splashFragment_to_walkThroughFragment2"
-            app:destination="@id/walkThroughFragment" />
-        <action
-            android:id="@+id/action_splashFragment_to_mainActivity"
             app:destination="@id/mainActivity" />
     </fragment>
     <activity

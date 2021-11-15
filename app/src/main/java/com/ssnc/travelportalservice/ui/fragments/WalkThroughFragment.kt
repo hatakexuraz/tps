@@ -24,8 +24,8 @@ class WalkThroughFragment : Fragment(R.layout.fragment_walkthrough), View.OnClic
 
         val tutorialStatus = preferenceManager.needTutorial
         Log.d("Fragment", "Walk NeedTutorial: $tutorialStatus")
-        val navController = findNavController()
         if (!tutorialStatus) {
+            val navController = findNavController()
             val startDestination = navController.graph.startDestination
             val navOption = NavOptions.Builder()
                 .setPopUpTo(startDestination, true)

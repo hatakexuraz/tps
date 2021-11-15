@@ -8,8 +8,8 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.ssnc.travelportalservice.ui.fragments.HomeFragment"
-        android:label="HomeFragment"
-        tools:layout="@layout/fragment_home" >
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_homeFragment_to_hotelDetailFragment"
             app:destination="@id/hotelDetailFragment"
@@ -21,8 +21,8 @@
     <fragment
         android:id="@+id/savedFragment"
         android:name="com.ssnc.travelportalservice.ui.fragments.SavedFragment"
-        android:label="SavedFragment"
-        tools:layout="@layout/fragment_saved" >
+        android:label="Saved"
+        tools:layout="@layout/fragment_saved">
         <action
             android:id="@+id/action_savedFragment_to_hotelDetailFragment"
             app:destination="@id/hotelDetailFragment"
@@ -34,8 +34,8 @@
     <fragment
         android:id="@+id/bookedFragment"
         android:name="com.ssnc.travelportalservice.ui.fragments.BookedFragment"
-        android:label="BookedFragment"
-        tools:layout="@layout/fragment_booked" >
+        android:label="Bookings"
+        tools:layout="@layout/fragment_booked">
         <action
             android:id="@+id/action_bookedFragment_to_hotelDetailFragment"
             app:destination="@id/hotelDetailFragment"
@@ -47,7 +47,7 @@
     <fragment
         android:id="@+id/profileFragment"
         android:name="com.ssnc.travelportalservice.ui.fragments.ProfileFragment"
-        android:label="ProfileFragment"
+        android:label="Profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/hotelDetailFragment"
@@ -57,5 +57,41 @@
         <argument
             android:name="hotel"
             app:argType="com.ssnc.travelportalservice.model.res.HotelByNameItem" />
+        <action
+            android:id="@+id/action_hotelDetailFragment_to_bookHotelFragment"
+            app:destination="@id/bookHotelFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/bookHotelFragment"
+        android:name="com.ssnc.travelportalservice.ui.fragments.BookHotelFragment"
+        android:label="Book Hotel"
+        tools:layout="@layout/fragment_book_hotel" />
+    <fragment
+        android:id="@+id/bookingUserInfoFragment"
+        android:name="com.ssnc.travelportalservice.ui.fragments.BookingUserInfoFragment"
+        android:label="Booing User Info"
+        tools:layout="@layout/layout_booking_user_info" />
+    <fragment
+        android:id="@+id/bookingOverViewFragment"
+        android:name="com.ssnc.travelportalservice.ui.fragments.BookingOverViewFragment"
+        android:label="Booking Overview"
+        tools:layout="@layout/layout_booking_overview">
+        <action
+            android:id="@+id/action_bookingOverViewFragment_to_paymentOptionFragment"
+            app:destination="@id/paymentOptionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentOptionFragment"
+        android:name="com.ssnc.travelportalservice.ui.fragments.PaymentOptionFragment"
+        android:label="Payment Methods"
+        tools:layout="@layout/fragment_payment_option">
+        <action
+            android:id="@+id/action_paymentOptionFragment_to_cardAddFragment"
+            app:destination="@id/cardAddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cardAddFragment"
+        android:name="com.ssnc.travelportalservice.ui.fragments.CardAddFragment"
+        android:label="Add Card"
+        tools:layout="@layout/fragment_card_add" />
 </navigation>

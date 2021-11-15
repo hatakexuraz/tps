@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lightGrey"
+    android:padding="@dimen/margin_12"
+    tools:context=".ui.fragments.BookingUserInfoFragment">
+
+    <TextView
+        android:id="@+id/txt_your_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_info"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_your_info"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_rounded_white"
+            android:padding="@dimen/margin_12"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txt_book_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shyam Bahadur"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:drawablePadding="@dimen/margin_8"
+                app:drawableStartCompat="@drawable/ic_person_dark"
+                android:layout_weight="0.9"/>
+
+            <ImageView
+                android:id="@+id/img_usr_name_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit"
+                android:layout_weight="0.1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_rounded_white"
+            android:padding="@dimen/margin_12"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txt_user_contact_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="987654321"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:drawablePadding="@dimen/margin_8"
+                app:drawableStartCompat="@drawable/ic_phone"
+                android:layout_weight="0.9"/>
+
+            <ImageView
+                android:id="@+id/img_contact_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit"
+                android:layout_weight="0.1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_rounded_white"
+            android:padding="@dimen/margin_12"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txt_user_mail_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="shyambahadur@gmail.com"
+                android:ellipsize="end"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/black"
+                android:drawablePadding="@dimen/margin_8"
+                app:drawableStartCompat="@drawable/ic_mail"
+                android:layout_weight="0.9"/>
+
+            <ImageView
+                android:id="@+id/img_usr_mail_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit"
+                android:layout_weight="0.1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/lightGrey"
+        android:drawableEnd="@drawable/ic_next"
+        android:elevation="0dp"
+        android:text="Next"
+        android:textColor="@color/primaryColor" />
+
+</RelativeLayout>

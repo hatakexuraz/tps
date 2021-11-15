@@ -89,7 +89,7 @@
             android:layout_alignParentEnd="true"
             android:weightSum="1">
 
-            <include layout="@layout/layout_hotel_review" />
+            <include layout="@layout/layout_hotel_rev_det" />
         </RelativeLayout>
     </RelativeLayout>
 

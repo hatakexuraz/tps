@@ -3,6 +3,70 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/background_book_now.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/background_circular.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/background_rounded.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/background_rounded_white.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/background_semi_rounded.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/custom_border.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_about_us.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_calendar.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_credit_card.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_edit.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_log_out.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_mail.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_next.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_next_black.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_person.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_person_dark.xml" value="0.3769230769230769" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_phone.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_saved.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_search.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_setting.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_star_rate.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_star_setting.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/ic_wallet.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/layout_bg.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/layoutbg1.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/splash_image.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/tab_indicator_default.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/tab_indicator_layout.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/tab_indicator_selected.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/tab_selector.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/drawable/walkthrough_gradient.xml" value="0.36512820512820515" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/activity_main.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/bottom_sheet_bed_room_picker.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/dialog_bed_room_picker.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/fragment_book_hotel.xml" value="0.33" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/fragment_booked.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/fragment_card_add.xml" value="0.25" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/fragment_hotel_detail.xml" value="0.22" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/fragment_payment_option.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/fragment_saved.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/fragment_splash.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/fragment_walkthrough.xml" value="0.19739583333333333" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_booking_bottom_confirm.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_booking_overview.xml" value="0.33" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_booking_overview_content.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_booking_user_info.xml" value="0.33" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_hotel_book_bottom_view.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_hotel_det.xml" value="0.25" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_hotel_list.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_hotel_rev_det.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_hotel_review.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_hotel_service_det.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_hotel_service_lists.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_hotel_view_pager.xml" value="0.33" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_interest_place_near.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_search_home.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_test.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/layout_user_review.xml" value="0.2" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/service_ac.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/service_tv.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/layout/service_wifi.xml" value="0.3546875" />
+        <entry key="..\:/Android/Projects/Kotlin/production 2/TPS/app/src/main/res/menu/bottom_menu.xml" value="0.3546875" />
         <entry key="..\:/Android/Projects/TravelPortalService/app/src/main/res/drawable/background_rounded.xml" value="0.30092592592592593" />
         <entry key="..\:/Android/Projects/TravelPortalService/app/src/main/res/drawable/ic_bed.xml" value="0.36512820512820515" />
         <entry key="..\:/Android/Projects/TravelPortalService/app/src/main/res/drawable/ic_booking.xml" value="0.36512820512820515" />
@@ -38,17 +102,10 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.2" />
-      </ProjectState>
-    </option>
   </component>
 </project>

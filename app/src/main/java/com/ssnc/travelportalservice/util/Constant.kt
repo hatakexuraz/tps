@@ -2,7 +2,7 @@ package com.ssnc.travelportalservice.util
 
 object Constant {
 
-    const val BASE_URL = "http://192.168.2.136:8083/RestHotel/"
+    const val BASE_URL = "http://192.168.1.199:8083/RestHotel/"
 
     //API
     const val HOTEL_NAME_SEARCH = "hotelDetail/search/{value}"

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/lightGrey"
+    tools:context=".ui.fragments.CardAddFragment">
+
+    <LinearLayout
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_12">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Add a new card"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/visa" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="@dimen/margin_8"
+                android:src="@drawable/master" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txt_card_num"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/margin_12"
+            android:background="@drawable/background_rounded_white"
+            android:gravity="center_vertical"
+            android:hint="@string/card_number"
+            android:inputType="number"
+            android:paddingStart="18dp" />
+
+        <EditText
+            android:id="@+id/txt_name_on_card"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/margin_12"
+            android:background="@drawable/background_rounded_white"
+            android:gravity="center_vertical"
+            android:hint="@string/name_on_card"
+            android:inputType="text"
+            android:paddingStart="18dp" />
+
+        <EditText
+            android:id="@+id/txt_expiry_date"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/margin_12"
+            android:background="@drawable/background_rounded_white"
+            android:gravity="center_vertical"
+            android:hint="@string/expiration_date"
+            android:inputType="date"
+            android:paddingStart="18dp" />
+
+        <EditText
+            android:id="@+id/txt_cvv"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/margin_12"
+            android:background="@drawable/background_rounded_white"
+            android:gravity="center_vertical"
+            android:hint="@string/cvv"
+            android:inputType="number"
+            android:maxLength="3"
+            android:paddingStart="18dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/darkGrey"
+        android:layout_above="@id/layout_bottom"/>
+    <RelativeLayout
+        android:id="@+id/layout_bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/txt_price_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs 1,500"
+            android:layout_marginStart="32dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#484848"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+        <Button
+            android:id="@+id/btn_pay_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay Now"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:background="@drawable/background_book_now"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
