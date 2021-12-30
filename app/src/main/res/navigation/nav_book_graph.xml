@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_book_graph"
+    app:startDestination="@id/book_user_info">
+    <fragment
+        android:id="@+id/payment_options"
+        android:name="com.ssnc.travelportalservice.ui.fragments.PaymentOptionFragment"
+        android:label="Payment Methods"
+        tools:layout="@layout/fragment_payment_option">
+        <action
+            android:id="@+id/action_paymentOptionFragment_to_cardAddFragment"
+            app:destination="@id/card_detail" />
+<!--        <action-->
+<!--            android:id="@+id/action_payment_options_to_paymentProcessingScreen"-->
+<!--            app:destination="@id/paymentProcessingScreen" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/card_detail"
+        android:name="com.ssnc.travelportalservice.ui.fragments.CardAddFragment"
+        android:label="Add Card"
+        tools:layout="@layout/fragment_card_add" />
+    <fragment
+        android:id="@+id/booking_overview"
+        android:name="com.ssnc.travelportalservice.ui.fragments.BookingOverViewFragment"
+        android:label="Booking Overview"
+        tools:layout="@layout/layout_booking_overview">
+        <action
+            android:id="@+id/action_bookingOverViewFragment_to_paymentOptionFragment"
+            app:destination="@id/payment_options" />
+    </fragment>
+    <fragment
+        android:id="@+id/book_user_info"
+        android:name="com.ssnc.travelportalservice.ui.fragments.BookingUserInfoFragment"
+        android:label="Booing User Info"
+        tools:layout="@layout/layout_booking_user_info">
+        <action
+            android:id="@+id/action_bookingUserInfoFragment_to_bookingOverViewFragment"
+            app:destination="@id/booking_overview" />
+    </fragment>
+    <fragment
+        android:id="@+id/paymentProcessingScreen"
+        android:name="com.ssnc.travelportalservice.ui.fragments.PaymentProcessingScreen"
+        android:label="Payment"
+        tools:layout="@layout/fragment_payment_screen" />
+
+</navigation>

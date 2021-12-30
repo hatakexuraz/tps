@@ -29,7 +29,7 @@ class BookingOverViewFragment : Fragment(R.layout.layout_booking_overview), OnMa
             childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
         mapFrag.getMapAsync(this)
 
-//        lay_pay_now.setOnClickListener(this)
+        lay_pay_now.setOnClickListener(this)
     }
 
     companion object {
@@ -64,7 +64,7 @@ class BookingOverViewFragment : Fragment(R.layout.layout_booking_overview), OnMa
                 startActivity(mapIntent)
             }
             R.id.lay_pay_now -> {
-                if (findNavController().currentDestination?.id == R.id.bookingOverViewFragment){
+                if (findNavController().currentDestination?.id == R.id.booking_overview){
 //                val action = BookingOverViewFragmentDirections.actionBookingOverViewFragmentToPaymentOptionFragment()
 //                findNavController().navigate(action)
                     view.findNavController().navigate(R.id.action_bookingOverViewFragment_to_paymentOptionFragment)

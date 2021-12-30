@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     android:background="@color/lightGrey"
     android:padding="@dimen/margin_12"
     tools:context=".ui.fragments.BookingUserInfoFragment">
@@ -12,12 +12,12 @@
         android:id="@+id/txt_your_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
         android:text="@string/your_info"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:gravity="center"
-        android:textStyle="bold"
         android:textSize="30sp"
-        android:layout_alignParentTop="true"/>
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,84 +25,91 @@
         android:layout_below="@id/txt_your_info"
         android:layout_marginTop="30dp"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/background_rounded_white"
-            android:padding="@dimen/margin_12"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_12">
+
             <TextView
                 android:id="@+id/txt_book_user_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:drawablePadding="@dimen/margin_8"
                 android:text="Shyam Bahadur"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/black"
-                android:drawablePadding="@dimen/margin_8"
-                app:drawableStartCompat="@drawable/ic_person_dark"
-                android:layout_weight="0.9"/>
+                app:drawableStartCompat="@drawable/ic_person_dark" />
 
             <ImageView
                 android:id="@+id/img_usr_name_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_edit"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:src="@drawable/ic_edit" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/background_rounded_white"
-            android:padding="@dimen/margin_12"
             android:layout_marginTop="18dp"
-            android:orientation="horizontal">
+            android:background="@drawable/background_rounded_white"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_12">
+
             <TextView
                 android:id="@+id/txt_user_contact_book"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:drawablePadding="@dimen/margin_8"
                 android:text="987654321"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/black"
-                android:drawablePadding="@dimen/margin_8"
-                app:drawableStartCompat="@drawable/ic_phone"
-                android:layout_weight="0.9"/>
+                app:drawableStartCompat="@drawable/ic_phone" />
 
             <ImageView
                 android:id="@+id/img_contact_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_edit"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:src="@drawable/ic_edit" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/background_rounded_white"
-            android:padding="@dimen/margin_12"
             android:layout_marginTop="18dp"
-            android:orientation="horizontal">
+            android:background="@drawable/background_rounded_white"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_12">
+
             <TextView
                 android:id="@+id/txt_user_mail_book"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="shyambahadur@gmail.com"
+                android:layout_weight="0.9"
+                android:drawablePadding="@dimen/margin_8"
                 android:ellipsize="end"
+                android:text="shyambahadur@gmail.com"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 android:textColor="@color/black"
-                android:drawablePadding="@dimen/margin_8"
-                app:drawableStartCompat="@drawable/ic_mail"
-                android:layout_weight="0.9"/>
+                app:drawableStartCompat="@drawable/ic_mail" />
 
             <ImageView
                 android:id="@+id/img_usr_mail_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_edit"
-                android:layout_weight="0.1"/>
+                android:layout_weight="0.1"
+                android:src="@drawable/ic_edit" />
         </LinearLayout>
     </LinearLayout>
 
     <Button
+        android:id="@+id/btn_book_info_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

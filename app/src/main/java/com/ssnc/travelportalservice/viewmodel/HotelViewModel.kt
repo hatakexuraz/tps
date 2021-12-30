@@ -18,7 +18,7 @@ class HotelViewModel(
     val hotelByName: MutableLiveData<Resource<HotelByName>> = MutableLiveData()
 
     init {
-        getHotelByName("Himal")
+        getHotelByName("Hotel")
     }
 
     private fun getHotelByName(hotelName : String) = viewModelScope.launch {
@@ -32,7 +32,7 @@ class HotelViewModel(
         if (response != null) {
             if (response.isSuccessful) {
                 response.body()?.let {
-                    return Resource.Success(it) as Resource<HotelByName>
+                    return Resource.Success(it)
                 }
             }
         }

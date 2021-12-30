@@ -79,4 +79,12 @@ dependencies {
 
     //Image slider with rounded indicator
     implementation 'com.github.smarteist:autoimageslider:1.4.0'
+
+    //esewa
+    implementation files('libs/eSewaSdk.aar')
+
+    //khalti
+    implementation ("com.khalti:khalti-android:2.01.00") {
+        transitive = true
+    }
 }

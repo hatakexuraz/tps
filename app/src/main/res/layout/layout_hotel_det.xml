@@ -156,7 +156,6 @@
                         android:layout_marginBottom="@dimen/margin_12"
                         android:text="Description"
                         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
                     <TextView
                         android:id="@+id/hotel_description"
                         android:layout_width="match_parent"
@@ -165,12 +164,18 @@
                         android:maxLines="4" />
 
                     <TextView
-                        android:id="@+id/txt_full_desc"
+                        android:id="@+id/txt_exp_full_desc"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="4dp"
                         android:text="Read full description"
                         android:textColor="@color/expand_link_color" />
+
+                    <!--                    <com.ms.square.android.expandabletextview.ExpandableTextView-->
+                    <!--                        android:id="@+id/exp_txt_desc"-->
+                    <!--                        android:layout_width="match_parent"-->
+                    <!--                        android:layout_height="wrap_content">-->
+                    <!--                    </com.ms.square.android.expandabletextview.ExpandableTextView>-->
                 </LinearLayout>
             </RelativeLayout>
 

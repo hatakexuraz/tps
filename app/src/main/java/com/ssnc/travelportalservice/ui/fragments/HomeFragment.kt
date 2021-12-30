@@ -123,7 +123,7 @@ class HomeFragment : Fragment(R.layout.fragment_home), View.OnClickListener {
                 error_view.visibility = View.INVISIBLE
                 Log.d(TAG, "Try again")
                 showProgressBar()
-                viewModel.getHotel("Himal")
+                viewModel.getHotel("Hotel")
 //                observeHotelData()
             }
         }
