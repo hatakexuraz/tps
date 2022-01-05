@@ -17,7 +17,6 @@ import com.khalti.checkout.helper.Config
 import com.khalti.checkout.helper.OnCheckOutListener
 import com.ssnc.travelportalservice.util.Constant
 import com.khalti.checkout.helper.KhaltiCheckOut
-import com.khalti.widget.KhaltiButton
 
 class PaymentOptionFragment : Fragment(R.layout.fragment_payment_option), View.OnClickListener {
 
